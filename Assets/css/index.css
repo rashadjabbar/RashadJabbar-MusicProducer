@@ -338,7 +338,7 @@
 .bgimg2 {
     float: left;
     width: 100%;
-    background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url(604fdd847c7ce.jpg);
+    background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url(../../Assets/img/604fdd847c7ce.jpg);
     background-attachment: fixed;
     padding-bottom: 80px;
 }
