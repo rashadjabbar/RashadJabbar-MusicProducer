@@ -1,0 +1,799 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Montserrat', sans-serif;
+    scroll-behavior: smooth;
+}
+
+::selection {
+    background-color: #FF0000;
+    color: black;
+}
+
+.bgimg1 {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url('../../Assets/img/music-g36da55aaa_1920.jpg');
+    background-attachment: fixed;
+    background-size: cover;
+    height: 900px;
+}
+
+.header1 {
+    height: 110px;
+}
+
+.logo {
+    width: 10%;
+    margin-left: 5%;
+    display: flex;
+}
+
+.logo img {
+    position: relative;
+    width: 160%;
+    bottom: 20px;
+}
+
+.rashadjabbar {
+    margin-top: 40px;
+}
+
+.rashadjabbar h5 {
+    opacity: 0;
+    right: 35px;
+    position: relative;
+    color: yellow;
+    transition: 3s;
+    font-weight: 300;
+}
+
+.logo:hover h5 {
+    right: 0;
+    opacity: 1;
+    transition: 3s;
+    cursor: pointer;
+}
+
+.header1 {
+    display: flex;
+}
+
+.socialmedia {
+    width: 50%;
+    margin-top: 35px;
+    white-space: nowrap;
+    margin-left: 40%;
+}
+
+.socialmedia ul {
+    float: right;
+    margin-right: 40px;
+}
+
+.socialmedia ul li {
+    margin-right: 10px;
+    display: inline-block;
+    color: white;
+    overflow: hidden;
+    padding: 5px 10px;
+}
+
+.socialmedia i {
+    padding-right: 10px;
+}
+
+.facbook {
+    width: 10px;
+    transition: 0.5s;
+}
+
+.facbook a {
+    text-decoration: none;
+    color: white;
+}
+
+.facbook:hover {
+    width: 100px;
+    background-color: #4267B2;
+    border-radius: 5px;
+}
+
+.instagram {
+    width: 10px;
+    transition: 0.5s;
+}
+
+.instagram:hover {
+    width: 110px;
+    background-color: #833AB4;
+    border-radius: 5px;
+}
+
+.youtube {
+    width: 10px;
+    transition: 0.5s;
+}
+
+.youtube:hover {
+    width: 100px;
+    background-color: #FF0000;
+    border-radius: 5px;
+}
+
+.whatsapp {
+    width: 10px;
+    transition: 0.5s;
+}
+
+.whatsapp:hover {
+    width: 150px;
+    background-color: #25D366;
+    border-radius: 5px;
+}
+
+.mail {
+    width: 10px;
+    transition: 0.5s;
+}
+
+.mail:hover {
+    width: 200px;
+    background-color: #FBBC05;
+    border-radius: 5px;
+}
+
+.instagram a {
+    text-decoration: none;
+    color: white;
+}
+
+.youtube a {
+    text-decoration: none;
+    color: white;
+}
+
+.whatsapp a {
+    text-decoration: none;
+    color: white;
+}
+
+.mail a {
+    text-decoration: none;
+    color: white;
+}
+
+.mainmenu {
+    width: 100%;
+    background-color: black;
+    box-shadow: 0 5px 20px #718093;
+    position: sticky;
+    padding: 2% 0;
+    top: 0;
+    z-index: 1000;
+    transition: 0.5s;
+}
+
+.scrolled {
+    background-color: black!important;
+    transition: background-color 200ms linear;
+    position: fixed;
+    padding: 1% 0;
+    top: 0;
+    transition: 0.5s;
+}
+
+.mainmenulist ul {
+    width: 100%;
+    text-align: center;
+}
+
+.mainmenulist li {
+    font-size: 20px;
+    margin-right: 5%;
+    font-weight: 600;
+    display: inline-block;
+    color: white;
+}
+.mainmenulist li a{
+    transition: 0.5s;
+    text-decoration: none;
+    color: white;
+}
+.mainmenulist li a:hover {
+    color: #FF0000;
+}
+
+.home {
+    margin-top: 7%;
+    width: 100%;
+    display: flex;
+}
+
+.home-title {
+    width: 40%;
+    margin-left: 10%;
+}
+
+.home-title h1 {
+    color: white;
+    font-size: 50px;
+}
+
+.home-title h1 span {
+    color: #e25e16;
+    transition: 0.5s;
+}
+
+.home-title h1:hover span {
+    color: #8ab154;
+    cursor: pointer;
+}
+
+.home-title h2 {
+    color: white;
+    font-weight: 500;
+}
+
+.home-title img {
+    margin-top: 5%;
+    margin-left: 5%;
+    width: 15%;
+    transition: 1s;
+}
+
+.home-title img:hover {
+    margin-left: 0;
+    transform: rotate(-35deg);
+}
+
+.on-home-logo {
+    width: 50%;
+}
+
+.on-home-logo img {
+    margin-left: -10%;
+    margin-top: -35%;
+    width: 98%
+}
+
+.scrolldown {
+    width: 100%;
+    text-align: center;
+    color: white;
+    font-size: 10px;
+}
+
+.xidmetler {
+    float: left;
+    width: 100%;
+    background-color: white;
+    padding-bottom: 25px;
+}
+
+.bashliq1 {
+    width: 100%;
+    margin-top: 5%;
+    text-align: center;
+}
+
+.bashliq1 h1 {
+    display: inline-block;
+    color: #e25e16;
+    padding: 10px 20px;
+    border: 1px solid #e25e16;
+    border-radius: 3px;
+}
+
+.qiymetler {
+    margin-top: 5%;
+    width: 70%;
+    margin-left: 15%;
+    background-color: white;
+    border: 2px solid #dfe6e9;
+    border-radius: 5px;
+    height: 420px;
+}
+
+.qiymetler2 {
+    width: 100%;
+    margin-left: 6%;
+    margin-top: 5%;
+}
+
+.qiymetler2 h1 {
+    line-height: 50px;
+    font-weight: 600;
+    color: #353b48;
+}
+
+.qiymetler2 h1 span {
+    letter-spacing: 5px;
+    font-weight: 400;
+    color: #e25e16;
+}
+
+.qiymetler2 h1 h2 {
+    display: inline-block;
+    color: #e25e16;
+}
+
+.sifarish {
+    text-align: center;
+    margin-top: 3%;
+}
+
+.sifarish h1 {
+    display: inline-block;
+    background-color: #e25e16;
+    border-radius: 3px;
+    padding: 10px 20px;
+    color: white;
+    transition: 0.4s;
+}
+
+.sifarish h1:hover {
+    background-color: black;
+    cursor: pointer;
+}
+
+.bgimg2 {
+    float: left;
+    width: 100%;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url(604fdd847c7ce.jpg);
+    background-attachment: fixed;
+    padding-bottom: 80px;
+}
+
+.bashliq2 {
+    margin-top: 5%;
+    text-align: center;
+}
+
+.bashliq2 h1 {
+    display: inline-block;
+    color: white;
+    padding: 10px 20px;
+    border: 1px solid white;
+    border-radius: 3px;
+}
+
+.bashliq2 h4 {
+    margin-top: 30px;
+    color: white;
+    font-weight: 400;
+    font-size: 20px;
+}
+
+.local-lessons-div {
+    width: 80%;
+    margin-top: 5%;
+    margin-left: 10%;
+    border: 1px solid white;
+    padding: 50px 0;
+    border-radius: 5px;
+    box-shadow: 0 0 50px #636e72;
+}
+
+.local-lessons-div>div {
+    width: 90%;
+    margin-left: 5%;
+    background-color: #c23616;
+    height: 70px;
+    margin-bottom: 10px;
+    border-radius: 5px;
+    display: flex;
+    align-items: center;
+    transition: 0.4s;
+}
+
+.local-lessons-div div h1 {
+    display: inline-block;
+    margin-left: 20px;
+    font-weight: 600;
+    font-size: 20px;
+    color: white;
+}
+
+.ders-bashliqlari {
+    width: 75%;
+}
+
+.playbutton i {
+    padding: 14px 14px 14px 16px;
+    font-size: 20px;
+    color: white;
+}
+
+.playbutton span {
+    padding-right: 30px;
+    color: white;
+    opacity: 0.7;
+    font-style: italic;
+    font-weight: 300;
+}
+
+.bashliq-divleri:hover {
+    cursor: pointer;
+    padding: 0 20px;
+    background: black;
+}
+
+.bashliq-divleri:hover i {
+    border-radius: 50%;
+    border: 3px solid white;
+}
+
+.bashliq-divleri:hover span {
+    color: #FBBC05;
+    font-style: normal;
+}
+
+.ses-paketleri {
+    float: left;
+    width: 100%;
+    padding-bottom: 40px;
+    background-color: #dfe6e9;
+}
+
+.bashliq3 {
+    margin-left: 2%;
+    margin-top: 5%;
+    text-align: center;
+}
+
+.bashliq3 h1 {
+    display: inline-block;
+    color: #353b48;
+    padding: 10px 20px;
+    border: 1px solid #353b48;
+    border-radius: 3px;
+}
+
+.bashliq3 h4 {
+    margin-top: 30px;
+    color: #353b48;
+    font-weight: 400;
+    font-size: 20px;
+}
+
+.local-pack-div {
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 50px;
+    justify-content: center;
+}
+
+.local-pack-div>div {
+    margin: 20px;
+    width: 20%;
+    height: 370px;
+}
+
+.packimg img {
+    width: 100%;
+}
+
+.local-pack-div h4 {
+    font-weight: 600;
+    line-height: 40px;
+    font-size: 17px;
+}
+
+.local-pack-div span {
+    opacity: 0.6;
+}
+
+.packimg {
+    position: relative;
+    transition: 0.5s;
+}
+
+.packimg:hover .download {
+    visibility: visible;
+    opacity: 1;
+    transition: 0.5s;
+    cursor: pointer;
+}
+
+.download {
+    position: absolute;
+    top: 0;
+    left: 0;
+    bottom: 4px;
+    right: 0;
+    background-color: rgba(0, 0, 0, 0.7);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    visibility: hidden;
+    opacity: 0;
+    transition: 0.5s;
+}
+
+.download i {
+    font-size: 20px;
+    display: inline-block;
+    border-radius: 50%;
+    background-color: white;
+    padding: 15px;
+    transition: 0.3s;
+}
+
+.download i:hover {
+    background-color: #e25e16;
+    color: white;
+}
+
+.download h4 {
+    padding-left: 20px;
+    color: white;
+}
+
+.proyektler {
+    float: left;
+    width: 100%;
+    padding: 40px 0;
+    background-color: white;
+}
+
+.bashliq4 {
+    margin-left: 2%;
+    text-align: center;
+}
+
+.bashliq4 h1 {
+    display: inline-block;
+    color: #353b48;
+    padding: 10px 20px;
+    border: 1px solid #353b48;
+    border-radius: 3px;
+}
+
+.bashliq4 h4 {
+    margin-top: 30px;
+    color: #353b48;
+    font-weight: 400;
+    font-size: 20px;
+}
+
+.local-project-div {
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 50px;
+    justify-content: center;
+}
+
+.local-project-div>div {
+    margin: 20px;
+    width: 20%;
+    transition: 0.5s;
+}
+
+.local-project-div div h5 {
+    font-weight: 500;
+    font-size: 15px;
+    padding: 15px 10px 15px 10px;
+}
+
+.local-project-div div:hover {
+    box-shadow: 0 0 10px #b2bec3;
+    border-bottom-right-radius: 10px;
+    border-bottom-left-radius: 10px;
+}
+
+.elaqe {
+    background-color: #1f1e1c;
+}
+
+.bashliq5 {
+    margin-left: 2%;
+    text-align: center;
+}
+
+.bashliq5 h1 {
+    margin-top: 30px;
+    display: inline-block;
+    color: white;
+    padding: 10px 20px;
+    border: 1px solid white;
+    border-radius: 3px;
+}
+
+.local-contact-div {
+    float: left;
+    width: 100%;
+    padding: 50px 0;
+    background-color: #1f1e1c;
+}
+
+.map {
+    width: 50%;
+    float: left;
+}
+
+.contact-us {
+    display: inline-block;
+    width: 50%;
+}
+
+.callus {
+    float: left;
+    display: flex;
+}
+
+.callus i {
+    font-size: 40px;
+    color: white;
+    padding-right: 20px;
+    margin-top: 10px;
+}
+
+.callus h1 {
+    color: white;
+}
+
+.callus h4 {
+    line-height: 25px;
+    color: white;
+    font-weight: 500;
+}
+
+.mailus {
+    float: left;
+    margin-left: 70px;
+    display: flex;
+}
+
+.mailus i {
+    font-size: 40px;
+    color: white;
+    padding-right: 20px;
+    margin-top: 10px;
+}
+
+.mailus h1 {
+    color: white;
+}
+
+.mailus h4 {
+    line-height: 25px;
+    color: white;
+    font-weight: 500;
+}
+
+form {
+    float: left;
+    margin-top: 50px;
+    width: 80%;
+}
+
+input {
+    width: 365px;
+    height: 30px;
+    padding: 2px 5px;
+    outline: none;
+    border-radius: 10px;
+}
+
+#send {
+    margin-top: 20px;
+    width: 180px;
+    height: 40px;
+    outline: none;
+    border-radius: 10px;
+    background-color: #e25e16;
+    color: white;
+    font-weight: 700;
+    margin: 20px 100px;
+    transition: 0.5s;
+}
+
+#send:hover {
+    cursor: pointer;
+    background-color: black;
+}
+
+.info {
+    display: flex;
+    margin-top: 50px;
+
+}
+
+.info h3 {
+    color: white;
+    font-weight: 500;
+}
+
+.info h4 {
+    color: white;
+    font-weight: 400;
+    line-height: 40px;
+    opacity: 0.8;
+}
+
+.footer-social-media{
+    margin-top: 20px;
+    margin-left: 20%;
+}
+
+.footer-social-media i{
+    color: white;
+    margin-left: 20px;
+    transition: 0.5s;
+}
+
+.footer-social-media i:hover{
+    cursor: pointer;
+    color: #FBBC05;
+}
+
+.top{
+    width: 40px;
+    height: 40px;
+    background-color: rgba(0, 0, 0, 0.7);
+    position: fixed;
+    bottom: 0;
+    right: 0;
+    margin: 20px;
+    border-radius: 5px;
+}
+
+.top a{
+    text-decoration: none;
+    color: white;
+   
+}
+
+.top i{
+    font-size: 20px;
+    padding: 9px 11px;
+}
+
+.forphone{
+    width: 100%;
+    height: 100vh;
+    position: absolute;
+    top: 0;
+    left: 0;
+    background: radial-gradient(circle, rgba(148, 4, 1, 1) 0%, rgba(237, 134, 38, 1) 100%);
+    display: flex;
+    justify-content: center;
+    z-index: -1000;
+    opacity: 0;
+}
+
+.forphone h1{
+    margin-top: 20%;
+    font-size: 35px;
+    color: white;
+    text-align: center;
+    padding-bottom: 20px;
+}
+
+.forphone p{
+    margin-top: 10px;
+    color: white;
+    text-align: center;
+    opacity: .7;
+}
+
+.forphone p:nth-child(3){
+    margin-top: 10%;
+    font-size: 13px;
+    opacity: 1;
+    color: #dcdde1;
+}
+
+@media only screen and (max-width: 1000px) {
+    header, main, footer{
+        display: none;
+    }
+    .forphone{
+        z-index: 1000;
+        opacity: 1;
+    }
+    .forphone h1{
+        margin-top: 60%;
+        padding: 0 3%;
+    }
+
+  }

@@ -1,0 +1,21 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1000" height="1000" viewBox="0 0 1000 1000">
+  <defs>
+    <style>
+      .cls-1 {
+        font-size: 90px;
+      }
+
+      .cls-1, .cls-2 {
+        fill: #fff;
+        text-anchor: middle;
+        font-family: Vagtur;
+      }
+
+      .cls-2 {
+        font-size: 108.264px;
+      }
+    </style>
+  </defs>
+  <text id="J" class="cls-1" transform="translate(566.425 612.094) scale(4.323)"><tspan x="0">J</tspan></text>
+  <text id="R" class="cls-2" transform="translate(429.371 602.728) scale(3.594)"><tspan x="0">R</tspan></text>
+</svg>
